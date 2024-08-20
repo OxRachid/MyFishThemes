@@ -4,11 +4,11 @@ Welcome to the **MyFishThemes** collection! This repository contains three custo
 
 ## Available Themes
 
-### 1. **BlueFish** 🐟
+    ⦁ **BlueFish** 🐟
 
-### 2. **Angelfish** 🦈
+    ⦁ **Angelfish** 🦈
 
-### 3. **Clownfish** 🐡
+    ⦁ **Clownfish** 🐡
 
 ## How to Choose and Apply a Theme
 
