@@ -4,7 +4,7 @@ Welcome to the **MyFishThemes** collection! This repository contains three custo
 
 ## Available Themes
 
-   ⦁ **BlueFish** 🐟
+   ⦁ **Bluefish** 🐟
 
    ⦁ **Angelfish** 🦈
 
