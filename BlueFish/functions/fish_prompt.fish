@@ -22,18 +22,18 @@ function fish_prompt
 
     set_color -b '#bcdcf6' '#000000'
     echo -n ' '(hostname | cut -d . -f 1)
-    set_color -b '#ffb366' '#bcdcf6'
+    set_color -b '#009ccc' '#bcdcf6'
     echo -n ''
-    set_color -b '#7e7267' '#ffb366'
+    set_color -b '#007599' '#009ccc'
     echo -n ''
-    set_color -b '#463f39' '#7e7267'
+    set_color -b '#005C78' '#007599'
     echo -n ''
 
 
         
-    set_color -b '#463f39' '#ffffff'
+    set_color -b '#005C78' '#ffffff'
     echo -n ' ⚷ 󰀵 󰌽  󰈙  󰲋  ᯤ '
-    set_color -b '#2d2c3c' '#463f39'
+    set_color -b '#2d2c3c' '#005C78'
     echo -n ''
     set_color normal
 
