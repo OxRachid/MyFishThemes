@@ -1,1 +1,1 @@
-![Diagram](BlueFish.jpg)
+![Diagram](Bluefish.jpg)
