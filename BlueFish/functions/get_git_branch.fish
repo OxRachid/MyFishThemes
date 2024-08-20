@@ -9,13 +9,12 @@ function get_git_branch
         set -l remote (git for-each-ref --format='%(upstream:short)' (git symbolic-ref -q HEAD) 2>/dev/null)
         
         if test -n "$branch"
-            set_color '#ffe9b6'
+            set_color -b '#092943' '#4aa1e8'
             if test -n "$remote"
-                echo -n " ($branch → $remote) "
+                echo -n "  ($branch → $remote) "
             else
                 echo -n " ($branch) "
             end
         end
     end
 end
-

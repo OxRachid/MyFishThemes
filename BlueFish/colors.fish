@@ -1,33 +1,4 @@
-# Save this to ~/.config/fish/conf.d/modified_catppuccin_colors.fish
-
 # Modified Catppuccin Mocha color palette
-
-set -l rosewater '#f5e0dc'
-set -l flamingo '#f2cdcd'
-set -l pink '#f5c2e7'
-set -l mauve '#cba6f7'
-set -l red '#f38ba8'
-set -l maroon '#eba0ac'
-set -l peach '#fab387'
-set -l yellow '#f9e2af'
-set -l green '#a6e3a1'
-set -l teal '#94e2d5'
-set -l sky '#89dceb'
-set -l sapphire '#74c7ec'
-set -l blue '#89b4fa'
-set -l lavender '#b4befe'
-set -l text '#cdd6f4'
-set -l subtext1 '#bac2de'
-set -l subtext0 '#a6adc8'
-set -l overlay2 '#9399b2'
-set -l overlay1 '#7f849c'
-set -l overlay0 '#6c7086'
-set -l surface2 '#585b70'
-set -l surface1 '#45475a'
-set -l surface0 '#313244'
-set -l base '#1e1e2e'
-set -l mantle '#181825'
-set -l crust '#11111b'
 
 # Reset all colors
 set -U fish_color_normal '#cdd6f4'
