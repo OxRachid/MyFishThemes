@@ -7,19 +7,18 @@ function fish_prompt
     set_color -b '#E24E1B' '#ffffff'
     echo -n ' '
     set_color -b '#CA6702' '#E24E1B'
-    echo -n '' 
+    echo -n '' 
     set_color -b '#CA6702' '#ffffff'
-    echo -n ' '(whoami)
+    echo -n ' '(whoami)' '
     set_color -b '#FFAA00' '#CA6702'
     echo -n '' 
 
     set_color -b '#FFAA00' '#ffffff'
-    echo -n '@'
    
     set_color -b '#005F73' '#FFAA00'
     echo -n ''
     set_color -b '#005F73' '#ffffff'
-    echo -n ' '(hostname | cut -d . -f 1)' '
+    echo -n ' @'(hostname | cut -d . -f 1)' '
     
     set_color -b '#8c8aa8' '#005F73'
     echo -n ''
