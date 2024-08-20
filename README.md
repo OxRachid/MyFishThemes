@@ -47,9 +47,9 @@ After copying the files, restart your terminal or run the following command to r
 Your Fish shell prompt should now reflect the new theme you've selected. If you'd like to switch themes, simply repeat the process with a different theme folder.
 
 
-**Note**
 
-If you want to displsy the Welcome-message.txt in your terminal you need to add this command in into your (`~/.config/fish/config.fish`) file.
+*Note*
+If you want to displsy the Welcome-message.txt in your terminal you need to add this command into your (`~/.config/fish/config.fish`) file.
  ```
  echo (set_color '#6EACDA')"$(cat ~/.config/fish/welcome_message.txt)"(set_color normal) 
  ```
