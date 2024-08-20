@@ -49,7 +49,7 @@ Your Fish shell prompt should now reflect the new theme you've selected. If you'
 
 
 
-**Note**
+**Note: **
 If you want to display the Welcome-message.txt in your terminal you need to add this command into your (`~/.config/fish/config.fish`) file.
  ```
  echo (set_color '#6EACDA')"$(cat ~/.config/fish/welcome_message.txt)"(set_color normal) 
