@@ -22,7 +22,7 @@ function fish_prompt
     echo -n ' '
     
     set_color -b '#ffb366' '#000000'
-    echo -n '@'(hostname | cut -d . -f 1)
+    echo -n ' @(uname -n | cut -d. -f 1) '
     set_color -b '#7e7267' '#ffb366'
     echo -n ''
     set_color -b '#463f39' '#7e7267'
